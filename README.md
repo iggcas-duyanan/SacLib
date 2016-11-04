@@ -1,16 +1,16 @@
-##SacLib - An simple Python library for SAC file I/O
+#SacLib - An simple Python library for SAC file I/O
 
-#Usage:
+##Usage:
   S = SacLib.Sac
   S = SacLib.Sac('MyFile.sac')
 
-#Attributes:
+##Attributes:
   S.Head = SAC header information
   S.Data[0] = SAC trace
   S.Data[1] = SAC trace (optional block)
   S.Byte = Byte-Order
 
-#Methods:
+##Methods:
   S.Read = Read SAC file from disk
   S.Write = Write SAC file to disk
   S.Copy = Create copy of SAC object
