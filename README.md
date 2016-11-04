@@ -2,8 +2,8 @@
 An simple Python library for SAC file I/O
 
 ##Usage:
-S = SacLib.Sac
-S = SacLib.Sac('MyFile.sac')
+S = SacLib.Sac__
+S = SacLib.Sac('MyFile.sac')__
 
 ##Attributes:
 S.Head = SAC header information
