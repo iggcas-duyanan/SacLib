@@ -45,7 +45,7 @@ class Sac():
       S.Head = SAC header information
       S.Data[0] = SAC trace
       S.Data[1] = SAC trace (optional block)
-      S.Byte = Byte Order
+      S.Byte = Byte-Order
 
     Methods:
       S.Read = Read SAC file from disk
