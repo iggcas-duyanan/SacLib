@@ -3,6 +3,7 @@ An simple Python library for SAC file I/O
 
 ##Usage:
 S = SacLib.Sac
+
 S = SacLib.Sac('MyFile.sac')
 
 ##Attributes:
