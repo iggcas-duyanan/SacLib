@@ -124,7 +124,7 @@ class Sac(object):
             s.write('MyFile.sac', owrite=True)
         """
 
-        if isfile(file) and not overwrite:
+        if isfile(file) and not owrite:
             print 'Error: file exists, not overwriting....'
             return
 
